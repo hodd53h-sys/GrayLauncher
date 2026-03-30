@@ -1,41 +1,15 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+build/
+dist-*/
+*.user
+.qtc_clangd/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
-*.lib
-
-# Executables
+*.so
+*.dll
 *.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+!resources/fonts/.gitkeep
+!resources/icons/.gitkeep
